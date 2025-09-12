@@ -1,8 +1,11 @@
 import React from 'react'
+import SharedFooter from '@/components/shared/shared-footer'
 
 function downloads() {
   return (
-    <div>downloads</div>
+    <div>
+      <SharedFooter />
+    </div>
   )
 }
 

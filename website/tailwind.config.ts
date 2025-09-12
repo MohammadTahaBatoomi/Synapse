@@ -22,17 +22,6 @@ module.exports = {
         '3xl': '64px',
       },
 
-      fontSize: {
-        xs: ['12px', '16px'],
-        sm: ['14px', '20px'],
-        base: ['16px', '24px'],
-        lg: ['18px', '28px'],
-        xl: ['20px', '32px'],
-        '2xl': ['24px', '36px'],
-        '3xl': ['30px', '44px'],
-        '4xl': ['36px', '48px'],
-      },
-
       borderRadius: {
         none: '0',
         sm: '4px',
