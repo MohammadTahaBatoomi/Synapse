@@ -3,7 +3,7 @@ import React from 'react'
 
 function SharedFooter() {
   return (
-    <footer className="text-sm text-textNotActive text-center">
+    <footer className="text-sm text-textNotActive text-center my-6">
       Built by{' '}
       <Link
         href="https://t.me/HexGhost_JS"
