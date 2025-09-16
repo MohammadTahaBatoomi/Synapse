@@ -21,7 +21,7 @@ function SharedHeader() {
         className={`max-w-[1500px] mx-auto flex items-center justify-between py-2 px-8 transition-shadow duration-300 mt-7 bg-bgBlackHigh rounded-xl
         ${
           isScrolled
-            ? "shadow-[0_0_5px_1.5px_rgba(255,255,255,0.15)]"
+            ? "shadow-[0_0_5px_0.5px_rgba(255,255,255,0.1)]"
             : "shadow-none"
         }`}
       >
