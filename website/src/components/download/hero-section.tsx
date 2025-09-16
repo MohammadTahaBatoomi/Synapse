@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Button from "../ui/dark-button-not-effect";
+import Button from "../ui/light-button-not-effect";
 
 function HeroSection() {
   return (

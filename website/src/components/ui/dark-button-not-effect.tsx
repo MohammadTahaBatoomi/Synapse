@@ -5,7 +5,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
 }
 
-function Button({ padding = "px-6 py-3", children, ...props }: ButtonProps) {
+function DarkButtonNotEfect({ padding = "px-6 py-3", children, ...props }: ButtonProps) {
   return (
     <button
       className={`bg-bgBlackHigh text-white font-semibold rounded-md border border-textNotActive hover:border-textActive transition-colors ${padding}`}
@@ -16,4 +16,4 @@ function Button({ padding = "px-6 py-3", children, ...props }: ButtonProps) {
   );
 }
 
-export default Button;
+export default DarkButtonNotEfect;
