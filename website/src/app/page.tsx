@@ -1,14 +1,18 @@
-'use client'
+import React from 'react'
 
-import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import SharedHeader from '@/components/shared/shared-header'
+import HeroSection from '@/components/landing/hero-section'
+import SharedFooter from '@/components/shared/shared-footer'
 
-export default function Page() {
-  const router = useRouter()
 
-  useEffect(() => {
-    router.push('/download') 
-  }, [router])
-
-  return null 
+function downloads() {
+  return (
+    <div>
+      <SharedHeader />
+      <HeroSection />
+      <SharedFooter />
+    </div>
+  )
 }
+
+export default downloads

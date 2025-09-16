@@ -23,8 +23,8 @@ function HeroSection() {
             Synapse makes listening immersive with AI — first made for Mark Zuckerberg.
           </p>
           <div className="mt-4 flex gap-4">
-             <LightButton padding="px-8 py-4">Download for linux</LightButton>
-             <DarkButton padding="px-8 py-4">All Downloads</DarkButton>
+             <LightButton padding="px-8 py-4">Try Now Synapse</LightButton>
+             <DarkButton padding="px-8 py-4">Downloads For Linux</DarkButton>
           </div>
         </div>
       </div>

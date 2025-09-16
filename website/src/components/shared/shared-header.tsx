@@ -46,7 +46,10 @@ function SharedHeader() {
             Contact
           </a>
         </nav>
-          <DarkButton padding="px-4 py-3">All Downloads</DarkButton>
+        <div className="flex gap-4">
+          <LightButton padding="px-5 py-2.5">Sign Up</LightButton>
+          <DarkButton padding=" px-5 py-2.5">All Downloads</DarkButton>
+        </div>
       </div>
     </header>
   );
