@@ -5,7 +5,7 @@ import LightButton from "../ui/light-button";
 
 function HeroSection() {
   return (
-    <section className="flex justify-center items-center mt-24">
+    <section className="flex justify-center items-center mt-[120px]">
       <div className="relative w-[95%] h-[835px]">
         <Image
           src="/images/gradient-hero-prerender.avif"
