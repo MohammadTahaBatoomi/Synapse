@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Button from "../ui/dark-button-not-effect";
 
 function HeroSection() {
   return (
@@ -20,6 +21,7 @@ function HeroSection() {
           <p className="text-textActive text-xl font-semibold">
             Synapse makes listening immersive with AI — first made for Mark Zuckerberg.
           </p>
+        <Button padding="px-8 py-4">All Downloads</Button>
         </div>
       </div>
     </section>
