@@ -15,7 +15,7 @@ function HeroSection() {
           className="rounded-xl object-cover object-center"
         />
 
-        <div className="absolute inset-0 flex flex-col justify-start items-center mt-20 z-10 text-center">
+        <div className="absolute inset-0 flex flex-col justify-center items-center mb-20 z-10 text-center">
           <h1 className="text-textActive text-[120px] font-bold">
             The AI Music Player
           </h1>
