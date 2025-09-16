@@ -25,27 +25,7 @@ function SharedHeader() {
             : "shadow-none"
         }`}
       >
-        <h1 className="text-textActive font-bold text-2xl">Synapse</h1>
-        <nav className="space-x-6 text-textActive">
-          <a
-            href="#features"
-            className="hover:bg-textNotActive/20 transition p-2 rounded-sm"
-          >
-            Features
-          </a>
-          <a
-            href="#docs"
-            className="hover:bg-textNotActive/20 transition p-2 rounded-sm"
-          >
-            Docs
-          </a>
-          <a
-            href="#contact"
-            className="hover:bg-textNotActive/20 transition p-2 rounded-sm"
-          >
-            Contact
-          </a>
-        </nav>
+        <h1 className="text-textActive font-bold text-3xl">Synapse</h1>
         <div className="flex gap-4">
           <LightButton padding="px-5 py-2.5">Sign Up</LightButton>
           <DarkButton padding=" px-5 py-2.5">All Downloads</DarkButton>
