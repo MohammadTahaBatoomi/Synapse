@@ -1,8 +1,11 @@
 import React from 'react'
+import Sidebar from '@/components/shared/Shared-Sidebar'
 
 function page() {
   return (
-    <div>page</div>
+    <div>
+      <Sidebar />
+    </div>
   )
 }
 
