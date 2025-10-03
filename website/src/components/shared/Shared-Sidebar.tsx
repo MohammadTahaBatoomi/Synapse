@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import DynamicButton from "./Shared-Button";
+import DynamicLink from "./Shared-Link";
 
 function Sidebar() {
   return (
@@ -23,6 +24,9 @@ function Sidebar() {
           Money Transfers Made <span className="text-limemist">Simple</span>
         </h1>
         <p className="text-white/70 mt-3">No personal credit checks or founder guarantee.</p>
+      </div>
+      <div className="mt-12">
+        <DynamicLink text="Our offerings"/>
       </div>
     </div>
   );
