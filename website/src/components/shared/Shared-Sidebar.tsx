@@ -16,7 +16,13 @@ function Sidebar() {
           />
           <p className="text-white font-bold">Synapse</p>
         </div>
-        <DynamicButton text="Get Started"/>
+        <DynamicButton text="Get Started" />
+      </div>
+      <div className="mt-12">
+        <h1 className="text-white text-4xl font-normal max-w-xs">
+          Money Transfers Made <span className="text-limemist">Simple</span>
+        </h1>
+        <p className="text-white/70 mt-3">No personal credit checks or founder guarantee.</p>
       </div>
     </div>
   );
