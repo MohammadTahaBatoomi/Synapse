@@ -31,12 +31,18 @@ function Sidebar() {
           No personal credit checks or founder guarantee.
         </p>
       </div>
-      <div className="mt-12">
+      <div className="mt-12 space-y-4">
         <DynamicLink text="Our offerings" />
-        <div className="flex justify-center items-center gap-2">
+        <div className="flex gap-2">
           <Ouroffeerning text="Instant Productivity" icon={<BsLightning />} />
           <Ouroffeerning text="Instant Productivity" icon={<TbShieldBolt />} />
           <Ouroffeerning text="Instant Productivity" icon={<LuDatabaseZap />} />
+        </div>
+        <div className="space-x-3">
+          <DynamicLink text="Content" />
+          <DynamicLink text="Social" />
+          <DynamicLink text="Address" />
+          <DynamicLink text="Legal Terms" />
         </div>
       </div>
     </div>
