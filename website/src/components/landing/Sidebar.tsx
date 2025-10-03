@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 import DynamicButton from "../shared/Shared-Button";
 import DynamicLink from "../shared/Shared-Link";
+import Ouroffeerning from "./Our-offerings";
+import { BsLightning } from "react-icons/bs";
+import { TbShieldBolt } from "react-icons/tb";
+import { LuDatabaseZap } from "react-icons/lu";
 
 function Sidebar() {
   return (
@@ -23,10 +27,17 @@ function Sidebar() {
         <h1 className="text-white text-4xl font-normal max-w-xs">
           Money Transfers Made <span className="text-limemist">Simple</span>
         </h1>
-        <p className="text-white/70 mt-3">No personal credit checks or founder guarantee.</p>
+        <p className="text-white/70 mt-3">
+          No personal credit checks or founder guarantee.
+        </p>
       </div>
       <div className="mt-12">
-        <DynamicLink text="Our offerings"/>
+        <DynamicLink text="Our offerings" />
+        <div className="flex justify-center items-center gap-2">
+          <Ouroffeerning text="Instant Productivity" icon={<BsLightning />} />
+          <Ouroffeerning text="Instant Productivity" icon={<TbShieldBolt />} />
+          <Ouroffeerning text="Instant Productivity" icon={<LuDatabaseZap />} />
+        </div>
       </div>
     </div>
   );
