@@ -9,7 +9,7 @@ import { LuDatabaseZap } from "react-icons/lu";
 
 function Sidebar() {
   return (
-    <div className="bg-deepforest h-screen w-[25%] p-8">
+    <div className="bg-deepforest h-[50%] w-full xl:h-screen xl:w-[480px] xl:fixed md:px-8 px-4 py-4">
       <div className="flex justify-between items-center">
         <div className="flex gap-4 items-center">
           <Image
