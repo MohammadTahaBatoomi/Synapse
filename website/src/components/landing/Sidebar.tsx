@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import DynamicButton from "./Shared-Button";
-import DynamicLink from "./Shared-Link";
+import DynamicButton from "../shared/Shared-Button";
+import DynamicLink from "../shared/Shared-Link";
 
 function Sidebar() {
   return (

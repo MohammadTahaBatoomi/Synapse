@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from '@/components/shared/Shared-Sidebar'
+import Sidebar from '@/components/landing/Sidebar'
 
 function page() {
   return (
