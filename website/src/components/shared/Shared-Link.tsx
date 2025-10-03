@@ -16,7 +16,7 @@ const DynamicLink: React.FC<DynamicLinkProps> = ({ text, href, onClick, classNam
 
   if (href) {
     return (
-      <Link href={href} className={`${baseStyle} ${className || ""}`}>
+      <Link href={href} className={`${baseStyle} ${className || "hover:underline"}`}>
         {text}
       </Link>
     );
