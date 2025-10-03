@@ -7,7 +7,7 @@ interface DynamicButtonProps {
   onClick?: () => void;
 }
 
-const DynamicButton: React.FC<DynamicButtonProps> = ({ text = "Get started", onClick }) => {
+const DynamicButton: React.FC<DynamicButtonProps> = ({ text = "", onClick }) => {
   return (
     <button
       onClick={onClick}
