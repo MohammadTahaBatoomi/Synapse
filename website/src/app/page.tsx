@@ -12,6 +12,7 @@ import Firstclass from "@/components/landing/First-class";
 import { IoWallet } from "react-icons/io5";
 import { IoFingerPrintOutline } from "react-icons/io5";
 import { MdFamilyRestroom } from "react-icons/md";
+import Footer from "@/components/landing/Footer";
 
 function Page() {
   return (
@@ -124,6 +125,7 @@ function Page() {
           src="/images/bc72d365e6fb4776f269844a23a18e18145ec664.png"
           alt="New Hero Section"
         />
+        <Footer />
       </main>
     </div>
   );
