@@ -13,7 +13,10 @@ function Page() {
       <Sidebar />
 
       <main className="flex-1 xl:ml-[480px]">
-        <CarouselBanner />
+        <CarouselBanner
+          src="/images/4dd369a6b1dd2d9d8c3e5227ef4f51e7f941a6ba.png"
+          alt="New Hero Section"
+        />
         <SharedText
           variant="up"
           text="Get more done in a week"
@@ -43,7 +46,7 @@ function Page() {
           className="mt-[100px]"
         />
         <div className="flex justify-between items-center px-8">
-          <div> 
+          <div>
             <ReliableApp
               src="/images/3b08d984c887ed2137ecba9e6ce406228ea26ca2.png"
               alt="Reliable banking dashboard"
@@ -90,7 +93,13 @@ function Page() {
             </div>
           </div>
         </div>
-        
+        <CarouselBanner
+          className="mt-[150px] h-[350px] rounded-3xl"
+          src="/images/8d837b963fff72eb5b748baf388a129932d42ca7.png"
+          alt="New Hero Section"
+          
+        />
+        <div></div>
       </main>
     </div>
   );
