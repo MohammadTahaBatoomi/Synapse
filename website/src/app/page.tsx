@@ -112,12 +112,18 @@ function Page() {
           />
         </div>
         <div className="flex justify-center items-center mt-5">
-        <div className="grid grid-cols-1 xl:grid-cols-4">
-          <Firstclass text="Safe Storage" icon={IoWallet} />
-          <Firstclass text="Secure" icon={IoFingerPrintOutline} />
-          <Firstclass text="Earn Interest" icon={IoStatsChartSharp} />
-          <Firstclass text="Family Plans" icon={MdFamilyRestroom} />
-        </div></div>
+          <div className="grid grid-cols-1 xl:grid-cols-4">
+            <Firstclass text="Safe Storage" icon={IoWallet} />
+            <Firstclass text="Secure" icon={IoFingerPrintOutline} />
+            <Firstclass text="Earn Interest" icon={IoStatsChartSharp} />
+            <Firstclass text="Family Plans" icon={MdFamilyRestroom} />
+          </div>
+        </div>
+        <CarouselBanner
+          className="mt-[50px] h-[350px] rounded-3xl"
+          src="/images/bc72d365e6fb4776f269844a23a18e18145ec664.png"
+          alt="New Hero Section"
+        />
       </main>
     </div>
   );
