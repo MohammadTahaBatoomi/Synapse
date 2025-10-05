@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Sidebar from "@/components/landing/Sidebar";
 import CarouselBanner from "@/components/landing/Carousel-Banner";
@@ -6,6 +8,10 @@ import GetMoreWeek from "@/components/landing/Get-More-Week";
 import { IoStatsChartSharp } from "react-icons/io5";
 import { AiFillDatabase } from "react-icons/ai";
 import ReliableApp from "@/components/landing/Reliable-App";
+import Firstclass from "@/components/landing/First-class";
+import { IoWallet } from "react-icons/io5";
+import { IoFingerPrintOutline } from "react-icons/io5";
+import { MdFamilyRestroom } from "react-icons/md";
 
 function Page() {
   return (
@@ -97,9 +103,21 @@ function Page() {
           className="mt-[150px] h-[350px] rounded-3xl"
           src="/images/8d837b963fff72eb5b748baf388a129932d42ca7.png"
           alt="New Hero Section"
-          
         />
-        <div></div>
+        <div className="mt-[130px]">
+          <SharedText variant="up" text="First class software" />
+          <SharedText
+            variant="down"
+            text="Get real-time insights, seamless transactions, and advanced tools to manage your wealth effortlessly."
+          />
+        </div>
+        <div className="flex justify-center items-center mt-5">
+        <div className="grid grid-cols-1 xl:grid-cols-4">
+          <Firstclass text="Safe Storage" icon={IoWallet} />
+          <Firstclass text="Secure" icon={IoFingerPrintOutline} />
+          <Firstclass text="Earn Interest" icon={IoStatsChartSharp} />
+          <Firstclass text="Family Plans" icon={MdFamilyRestroom} />
+        </div></div>
       </main>
     </div>
   );
